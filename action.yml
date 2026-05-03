@@ -1,6 +1,6 @@
-name "Container Action"
-description "A simple container action that prints a message and memory info"
-author "xBade00"
+name: "Container Action"
+description: "A simple container action that prints a message and memory info"
+author: "xBade00"
 inputs:
   MYINPUT:
     description: "An input message to print"
