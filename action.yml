@@ -1,0 +1,15 @@
+name "Container Action"
+description "A simple container action that prints a message and memory info"
+author "xBade00"
+inputs:
+  MYINPUT:
+    description: "An input message to print"
+    required: true
+    default: "a container action"
+outputs:
+  MyOutput:
+    description: "The memory information of the container"    
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  
