@@ -12,4 +12,5 @@ jobs:
         MYINPUT: "Hello from the workflow!"
     - name: Get output from container action
       run: echo "Memory info from container: ${{ steps.hello.outputs.MyOutput }}"
+
   
